@@ -366,3 +366,9 @@ export default router
 > 但是，当你写 `import ... from '@/views/Login'`（省略了 `/index.vue`），模块解析器（由 Vite 或 Webpack 提供）会遵循一个**默认的解析规则**：
 >
 > **规则：当你导入的路径是一个文件夹（而不是一个文件）时，模块解析器会自动尝试在这个文件夹中寻找一个名为 `index` 的文件（`index.js`, `index.vue`, `index.ts` 等），并将其作为该模块的入口点。**
+
+#### 6、图片资源和样式资源
+
+图片资源：通常由UI设计师提供(assets)
+
+样式资源：之项目初始化的时候进行央视重置，常见的有开源common.scss和手动添加(styles)
